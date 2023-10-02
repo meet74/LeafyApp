@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4213492ACB2DE0009819A1 /* LeafyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4213482ACB2DE0009819A1 /* LeafyAppApp.swift */; };
+		0A42134B2ACB2DE0009819A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42134A2ACB2DE0009819A1 /* ContentView.swift */; };
+		0A42134D2ACB2DE1009819A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A42134C2ACB2DE1009819A1 /* Assets.xcassets */; };
+		0A4213502ACB2DE1009819A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A42134F2ACB2DE1009819A1 /* Preview Assets.xcassets */; };
+		0A42135A2ACB2DE2009819A1 /* LeafyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4213592ACB2DE2009819A1 /* LeafyAppTests.swift */; };
+		0A4213642ACB2DE2009819A1 /* LeafyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4213632ACB2DE2009819A1 /* LeafyAppUITests.swift */; };
+		0A4213662ACB2DE2009819A1 /* LeafyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4213652ACB2DE2009819A1 /* LeafyAppUITestsLaunchTests.swift */; };
+		0A4213732ACB3658009819A1 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A4213722ACB3658009819A1 /* info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4213562ACB2DE2009819A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A42133D2ACB2DE0009819A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4213442ACB2DE0009819A1;
+			remoteInfo = LeafyApp;
+		};
+		0A4213602ACB2DE2009819A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A42133D2ACB2DE0009819A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4213442ACB2DE0009819A1;
+			remoteInfo = LeafyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4213452ACB2DE0009819A1 /* LeafyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4213482ACB2DE0009819A1 /* LeafyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafyAppApp.swift; sourceTree = "<group>"; };
+		0A42134A2ACB2DE0009819A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A42134C2ACB2DE1009819A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A42134F2ACB2DE1009819A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A4213552ACB2DE2009819A1 /* LeafyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4213592ACB2DE2009819A1 /* LeafyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafyAppTests.swift; sourceTree = "<group>"; };
+		0A42135F2ACB2DE2009819A1 /* LeafyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4213632ACB2DE2009819A1 /* LeafyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafyAppUITests.swift; sourceTree = "<group>"; };
+		0A4213652ACB2DE2009819A1 /* LeafyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A4213722ACB3658009819A1 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4213422ACB2DE0009819A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4213522ACB2DE2009819A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A42135C2ACB2DE2009819A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A42133C2ACB2DE0009819A1 = {
+			isa = PBXGroup;
+			children = (
+				0A4213472ACB2DE0009819A1 /* LeafyApp */,
+				0A4213582ACB2DE2009819A1 /* LeafyAppTests */,
+				0A4213622ACB2DE2009819A1 /* LeafyAppUITests */,
+				0A4213462ACB2DE0009819A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4213462ACB2DE0009819A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4213452ACB2DE0009819A1 /* LeafyApp.app */,
+				0A4213552ACB2DE2009819A1 /* LeafyAppTests.xctest */,
+				0A42135F2ACB2DE2009819A1 /* LeafyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4213472ACB2DE0009819A1 /* LeafyApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A4213482ACB2DE0009819A1 /* LeafyAppApp.swift */,
+				0A4213722ACB3658009819A1 /* info.plist */,
+				0A42134A2ACB2DE0009819A1 /* ContentView.swift */,
+				0A42134C2ACB2DE1009819A1 /* Assets.xcassets */,
+				0A42134E2ACB2DE1009819A1 /* Preview Content */,
+			);
+			path = LeafyApp;
+			sourceTree = "<group>";
+		};
+		0A42134E2ACB2DE1009819A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A42134F2ACB2DE1009819A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A4213582ACB2DE2009819A1 /* LeafyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4213592ACB2DE2009819A1 /* LeafyAppTests.swift */,
+			);
+			path = LeafyAppTests;
+			sourceTree = "<group>";
+		};
+		0A4213622ACB2DE2009819A1 /* LeafyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4213632ACB2DE2009819A1 /* LeafyAppUITests.swift */,
+				0A4213652ACB2DE2009819A1 /* LeafyAppUITestsLaunchTests.swift */,
+			);
+			path = LeafyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4213442ACB2DE0009819A1 /* LeafyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4213692ACB2DE2009819A1 /* Build configuration list for PBXNativeTarget "LeafyApp" */;
+			buildPhases = (
+				0A4213412ACB2DE0009819A1 /* Sources */,
+				0A4213422ACB2DE0009819A1 /* Frameworks */,
+				0A4213432ACB2DE0009819A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeafyApp;
+			productName = LeafyApp;
+			productReference = 0A4213452ACB2DE0009819A1 /* LeafyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4213542ACB2DE2009819A1 /* LeafyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A42136C2ACB2DE2009819A1 /* Build configuration list for PBXNativeTarget "LeafyAppTests" */;
+			buildPhases = (
+				0A4213512ACB2DE2009819A1 /* Sources */,
+				0A4213522ACB2DE2009819A1 /* Frameworks */,
+				0A4213532ACB2DE2009819A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4213572ACB2DE2009819A1 /* PBXTargetDependency */,
+			);
+			name = LeafyAppTests;
+			productName = LeafyAppTests;
+			productReference = 0A4213552ACB2DE2009819A1 /* LeafyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A42135E2ACB2DE2009819A1 /* LeafyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A42136F2ACB2DE2009819A1 /* Build configuration list for PBXNativeTarget "LeafyAppUITests" */;
+			buildPhases = (
+				0A42135B2ACB2DE2009819A1 /* Sources */,
+				0A42135C2ACB2DE2009819A1 /* Frameworks */,
+				0A42135D2ACB2DE2009819A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4213612ACB2DE2009819A1 /* PBXTargetDependency */,
+			);
+			name = LeafyAppUITests;
+			productName = LeafyAppUITests;
+			productReference = 0A42135F2ACB2DE2009819A1 /* LeafyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A42133D2ACB2DE0009819A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0A4213442ACB2DE0009819A1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0A4213542ACB2DE2009819A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0A4213442ACB2DE0009819A1;
+					};
+					0A42135E2ACB2DE2009819A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0A4213442ACB2DE0009819A1;
+					};
+				};
+			};
+			buildConfigurationList = 0A4213402ACB2DE0009819A1 /* Build configuration list for PBXProject "LeafyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A42133C2ACB2DE0009819A1;
+			productRefGroup = 0A4213462ACB2DE0009819A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4213442ACB2DE0009819A1 /* LeafyApp */,
+				0A4213542ACB2DE2009819A1 /* LeafyAppTests */,
+				0A42135E2ACB2DE2009819A1 /* LeafyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4213432ACB2DE0009819A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4213502ACB2DE1009819A1 /* Preview Assets.xcassets in Resources */,
+				0A42134D2ACB2DE1009819A1 /* Assets.xcassets in Resources */,
+				0A4213732ACB3658009819A1 /* info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4213532ACB2DE2009819A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A42135D2ACB2DE2009819A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4213412ACB2DE0009819A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A42134B2ACB2DE0009819A1 /* ContentView.swift in Sources */,
+				0A4213492ACB2DE0009819A1 /* LeafyAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4213512ACB2DE2009819A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A42135A2ACB2DE2009819A1 /* LeafyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A42135B2ACB2DE2009819A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4213662ACB2DE2009819A1 /* LeafyAppUITestsLaunchTests.swift in Sources */,
+				0A4213642ACB2DE2009819A1 /* LeafyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4213572ACB2DE2009819A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4213442ACB2DE0009819A1 /* LeafyApp */;
+			targetProxy = 0A4213562ACB2DE2009819A1 /* PBXContainerItemProxy */;
+		};
+		0A4213612ACB2DE2009819A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4213442ACB2DE0009819A1 /* LeafyApp */;
+			targetProxy = 0A4213602ACB2DE2009819A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A4213672ACB2DE2009819A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A4213682ACB2DE2009819A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A42136A2ACB2DE2009819A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeafyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VKWXV7M8UP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeafyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.LeafyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A42136B2ACB2DE2009819A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeafyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VKWXV7M8UP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeafyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.LeafyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A42136D2ACB2DE2009819A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKWXV7M8UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.LeafyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeafyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeafyApp";
+			};
+			name = Debug;
+		};
+		0A42136E2ACB2DE2009819A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKWXV7M8UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.LeafyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeafyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeafyApp";
+			};
+			name = Release;
+		};
+		0A4213702ACB2DE2009819A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKWXV7M8UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.LeafyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeafyApp;
+			};
+			name = Debug;
+		};
+		0A4213712ACB2DE2009819A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKWXV7M8UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.LeafyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeafyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4213402ACB2DE0009819A1 /* Build configuration list for PBXProject "LeafyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4213672ACB2DE2009819A1 /* Debug */,
+				0A4213682ACB2DE2009819A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4213692ACB2DE2009819A1 /* Build configuration list for PBXNativeTarget "LeafyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A42136A2ACB2DE2009819A1 /* Debug */,
+				0A42136B2ACB2DE2009819A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A42136C2ACB2DE2009819A1 /* Build configuration list for PBXNativeTarget "LeafyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A42136D2ACB2DE2009819A1 /* Debug */,
+				0A42136E2ACB2DE2009819A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A42136F2ACB2DE2009819A1 /* Build configuration list for PBXNativeTarget "LeafyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4213702ACB2DE2009819A1 /* Debug */,
+				0A4213712ACB2DE2009819A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A42133D2ACB2DE0009819A1 /* Project object */;
+}

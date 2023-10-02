@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "bharath-g-s-aLGiPJ4XRO4-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "bharath-g-s-aLGiPJ4XRO4-unsplash@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "bharath-g-s-aLGiPJ4XRO4-unsplash@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
